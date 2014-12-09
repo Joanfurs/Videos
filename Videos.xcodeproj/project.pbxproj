@@ -13,6 +13,11 @@
 		AF4457B61A3207ED001DD10F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4457B51A3207ED001DD10F /* Images.xcassets */; };
 		AF4457B91A3207ED001DD10F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4457B71A3207ED001DD10F /* LaunchScreen.xib */; };
 		AF4457C51A3207ED001DD10F /* VideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4457C41A3207ED001DD10F /* VideosTests.swift */; };
+		AF4457CF1A320905001DD10F /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4457CE1A320905001DD10F /* View.swift */; };
+		AF4457D41A320BE5001DD10F /* 1.m4v in Resources */ = {isa = PBXBuildFile; fileRef = AF4457D31A320BE5001DD10F /* 1.m4v */; };
+		AF4457D61A32304C001DD10F /* 2.m4v in Resources */ = {isa = PBXBuildFile; fileRef = AF4457D51A32304C001DD10F /* 2.m4v */; };
+		AFE54A0D1A32397000E1DCCE /* 3.m4v in Resources */ = {isa = PBXBuildFile; fileRef = AFE54A0C1A32396F00E1DCCE /* 3.m4v */; };
+		AFFEA1B91A36026E0037E105 /* alien.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFFEA1B81A36026E0037E105 /* alien.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		AF4457BE1A3207ED001DD10F /* VideosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4457C31A3207ED001DD10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF4457C41A3207ED001DD10F /* VideosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosTests.swift; sourceTree = "<group>"; };
+		AF4457CE1A320905001DD10F /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		AF4457D31A320BE5001DD10F /* 1.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4v; sourceTree = "<group>"; };
+		AF4457D51A32304C001DD10F /* 2.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4v; sourceTree = "<group>"; };
+		AFE54A0C1A32396F00E1DCCE /* 3.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4v; sourceTree = "<group>"; };
+		AFFEA1B81A36026E0037E105 /* alien.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alien.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,7 @@
 			children = (
 				AF4457AE1A3207ED001DD10F /* AppDelegate.swift */,
 				AF4457B01A3207ED001DD10F /* ViewController.swift */,
+				AF4457CE1A320905001DD10F /* View.swift */,
 				AF4457B21A3207ED001DD10F /* Main.storyboard */,
 				AF4457B51A3207ED001DD10F /* Images.xcassets */,
 				AF4457B71A3207ED001DD10F /* LaunchScreen.xib */,
@@ -90,6 +101,10 @@
 		AF4457AC1A3207ED001DD10F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AFFEA1B81A36026E0037E105 /* alien.mp3 */,
+				AFE54A0C1A32396F00E1DCCE /* 3.m4v */,
+				AF4457D51A32304C001DD10F /* 2.m4v */,
+				AF4457D31A320BE5001DD10F /* 1.m4v */,
 				AF4457AD1A3207ED001DD10F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +208,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4457B41A3207ED001DD10F /* Main.storyboard in Resources */,
+				AFFEA1B91A36026E0037E105 /* alien.mp3 in Resources */,
 				AF4457B91A3207ED001DD10F /* LaunchScreen.xib in Resources */,
 				AF4457B61A3207ED001DD10F /* Images.xcassets in Resources */,
+				AFE54A0D1A32397000E1DCCE /* 3.m4v in Resources */,
+				AF4457D61A32304C001DD10F /* 2.m4v in Resources */,
+				AF4457D41A320BE5001DD10F /* 1.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +233,7 @@
 			files = (
 				AF4457B11A3207ED001DD10F /* ViewController.swift in Sources */,
 				AF4457AF1A3207ED001DD10F /* AppDelegate.swift in Sources */,
+				AF4457CF1A320905001DD10F /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +425,7 @@
 				AF4457CA1A3207ED001DD10F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF4457CB1A3207ED001DD10F /* Build configuration list for PBXNativeTarget "VideosTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +434,7 @@
 				AF4457CD1A3207ED001DD10F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
